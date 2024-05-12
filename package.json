@@ -1,8 +1,13 @@
 {
   "name": "fley-linked-list",
-  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FLEYreal/Linked-Lists.git"
+  },
+  "version": "0.0.2",
   "description": "Custom Implementation of linked arrays for JavaScript",
   "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "npx tsc",
