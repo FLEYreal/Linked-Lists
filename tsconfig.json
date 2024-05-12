@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+
+    /* Language and Environment */
+    "target": "ES2015",
+
+    /* Modules */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+
+    /* Completeness */
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "sourceMap": false,
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*"]
+}

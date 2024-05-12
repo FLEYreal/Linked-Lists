@@ -1,0 +1,23 @@
+{
+  "name": "fley-linked-list",
+  "version": "0.0.1",
+  "description": "Custom Implementation of linked arrays for JavaScript",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./dist/index.js",
+    "lint": "npx eslint ./src/**/*.{ts,tsx}"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "FLEYreal",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.8"
+  }
+}
