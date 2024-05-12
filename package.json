@@ -4,23 +4,29 @@
     "type": "git",
     "url": "https://github.com/FLEYreal/Linked-Lists.git"
   },
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Custom Implementation of linked arrays for JavaScript",
-  "main": "./dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./index.cjs",
+  "typings": "./index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "npx tsc",
-    "start": "node ./dist/index.js",
-    "lint": "npx eslint ./src/**/*.{ts,tsx}"
+    "build": "npx tsc && npx rollup -c",
+    "start": "node ./index.cjs"
   },
   "files": [
-    "dist"
+    "index.d.ts",
+    "index.cjs",
+    "index.cjs.map"
   ],
   "author": "FLEYreal",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "@rollup/plugin-typescript": "^11.1.6",
+    "esbuild": "^0.21.1",
+    "prettier": "^3.2.5",
+    "rollup": "^4.17.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
     "@types/node": "^20.12.8"
