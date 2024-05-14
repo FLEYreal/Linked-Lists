@@ -4,14 +4,14 @@
     "type": "git",
     "url": "https://github.com/FLEYreal/Linked-Lists.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.3-pre",
   "description": "Custom Implementation of linked arrays for JavaScript",
   "main": "./index.cjs",
   "typings": "./index.d.ts",
   "type": "module",
   "scripts": {
     "build": "npx tsc && npx rollup -c",
-    "start": "node ./index.cjs"
+    "start": "node ./lib/index.js"
   },
   "files": [
     "index.d.ts",
