@@ -25,7 +25,7 @@ linkedArray.length // Gives the current length of an array.
 linkedArray.start // Provides the starting node of the linked array.
 ```
 
-Linked Arrays also support methods to work with:
+Linked Arrays also support methods to work with like get(), push() and etc... :
 ```ts
 // Get node by index. Throws an error if the length is exceeded
 linkedArray.get(0); // Gives the first node. Equivalent of linkedArray.start.
